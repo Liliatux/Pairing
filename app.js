@@ -1,7 +1,5 @@
 $("input").css("background", function(){
-	var couleur = $(this).data("color");
-	console.log(couleur);
-	return couleur;
+	return $(this).data("color");
 });
 
 $("input").click(function(){
